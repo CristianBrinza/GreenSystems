@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+#login_page{
+    width:100vw;
+    height:100vh;
+    background: url("images/login_bg.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#login_page_form{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    padding: 10px;
+    border-radius: 18px;
+    background: #FFF;
+    width: 800px;
+    height: 450px;
+}
+
+#login_page_form_img{
+border-radius: 18px;
+    width: 50%;
+    height: auto;
+
+}
+
+#login_page_form_right_icon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 40px;
+}
+
+
+
+#login_page_form_right{
+width: 50%;
+    box-sizing: border-box;
+    padding: 20px 40px 20px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+.login_page_form_right_input{
+border-radius: 10px;
+border: 1px solid #E8E8E8;
+background: #FFF;
+    width: 100%;
+    color: #D2D2D2;
+    text-align: left;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 40px; /* 222.222% */
+    padding-left: 20px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+
+#login_page_form_right_login_btn{
+    border-radius: 10px;
+    border: 1px solid #E8E8E8;
+    background: #0F4A2A;
+    width: 100%;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+#login_page_form_right_login_form{
+    width: 100%;
+}
+
+
+#login_page_other_sign_in{
+    width: 100%;
+    display: flex;
+    padding: 0 10%;
+    box-sizing: border-box;
+    justify-content: space-around;
+    align-content: center;
+    color: #333;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 10px;
+}
+.login_page_other_sign_in_line{
+    height: 5px;
+    margin-top: 5px;
+    width: 30%;
+    border-top:solid 1px #EEE;
+}
+
+#login_page_forgot{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 20px;
+}
+#login_page_login_alter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.login_page_login_alter_btn{
+    border-radius: 10px;
+    border: 1px solid #E8E8E8;
+    background: #FFF;
+    padding: 6px 20px;
+}
+
+.login_page_forgot_link{
+    color: #3588F3;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration-line: underline;
+}
